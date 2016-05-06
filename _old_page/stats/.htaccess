@@ -1,8 +1,0 @@
-AuthUserFile /home/sites/www.primus-romulus.net/web/.htpasswd
-AuthGroupFile /home/sites/www.primus-romulus.net/web/.group
-AuthName Admin
-AuthType Basic
-
-
-require user  stats
-
