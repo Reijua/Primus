@@ -1,0 +1,35 @@
+@font-face{
+	font-family:'LineIcon';
+	src:url('../font/LineIcon.eot');
+	src:url('../font/LineIcon.eot') format('embedded-opentype'),
+		url('../font/LineIcon.woff') format('woff'),
+		url('../font/LineIcon.ttf') format('truetype'),
+		url('../font/LineIcon.svg') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+[class^="icon-"],[class*=" icon-"]{
+	font-family: LineIcon;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing:antialiased;
+	font-size: 1em;
+}
+.icon-arrow-top:before{content:"\e600";}
+.icon-arrow-down:before{content:"\e601";}
+.icon-arrow-right:before{content:"\e602";}
+.icon-arrow-left:before{content:"\e603";}
+.icon-plus:before{content:"\e604";}
+.icon-minus:before{content:"\e605";}
+.icon-remove:before, .icon-close:before{content:"\e606";}
+.icon-menu:before{content:"\e607";}
+.icon-clock:before{content:"\e608";}
+.icon-dashboard:before{content:"\e609";}
+
+
+
+
+
+

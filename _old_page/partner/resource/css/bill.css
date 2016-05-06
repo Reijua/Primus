@@ -1,0 +1,96 @@
+/***************/
+/* General (s) */
+/***************/
+
+@page{
+	font-size: 11pt;
+}
+html, body{
+	font-size: 11pt;
+	font-family: helvetica;
+}
+
+/***************/
+/* General (e) */
+/***************/
+
+/**************/
+/* Header (s) */
+/**************/
+
+.header{
+	display: block;
+}
+	.header .address-header{
+		text-align: right;
+		margin: 0 0 20px 0;
+	}
+
+	.header .address{
+		display: block;
+	}
+
+/**************/
+/* Header (e) */
+/**************/
+
+/***************/
+/* Content (s) */
+/***************/
+
+.content{
+	text-align: left;
+}
+	.content .payment-information{
+		border: 1px solid #CCCCCC;
+		background-color: #F5F5F5;
+		color: #666666;
+		padding: 10px;
+		display: block;
+	}
+		.content .payment-information strong{
+			color: #333333;
+		}
+
+/***************/
+/* Content (e) */
+/***************/
+
+/*************/
+/* Table (s) */
+/*************/
+
+.table{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-spacing:0;
+    border-collapse: collapse;
+    font-size: 1em !important;
+}
+	.table thead{
+		width: 100%;
+		border-bottom: 3px solid #263962;
+		background-color: #3B5999;
+	}
+		.table thead tr th{
+			text-align: left;
+			padding: 10px;
+			color: #FFFFFF;
+			font-weight: normal;
+		}
+	.table tbody{
+		padding-top: 37px;
+		background-color: #FFFFFF;
+	}
+		.table tbody tr td{
+			padding: 10px;
+			border-bottom:1px solid #CCCCCC;
+		}
+
+/*************/
+/* Table (e) */
+/*************/
+
+
+

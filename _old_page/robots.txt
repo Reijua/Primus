@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /member/
+Disallow: /business/
+Disallow: /company/
+Disallow: /plattform/
+Disallow: /stats/
+Disallow: /error/
